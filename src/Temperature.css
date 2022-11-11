@@ -1,0 +1,93 @@
+.main {
+  background-color: #a2bb00;
+  width: 415px;
+  margin: auto;
+  border: 3px solid #1521e0;
+  box-shadow: 0.3rem 0.2rem 1.1px black;
+  height: 440px;
+  position: relative;
+  top: 50px;
+}
+.container {
+  text-align: center;
+  color: blue;
+}
+.temperature {
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  top: 0%;
+  background-color: #9ecd56;
+  box-shadow: 0.3rem 0.2rem 0.1rem black;
+}
+
+.tempt-main {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  top: 10px;
+}
+.tempt-inner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  top: 16px;
+}
+.number {
+  color: white;
+}
+.status {
+  margin-top: -21px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.controller {
+  margin-top: 175px;
+  position: relative;
+}
+.inc-C,
+.dec-C {
+  height: 25px;
+  width: 45px;
+  color: white;
+
+  font-size: 20px;
+}
+.inc-C {
+  position: absolute;
+  left: 70px;
+  top: -145px;
+  background-color: blue;
+}
+
+.inc-C:hover {
+  background-color: green;
+}
+.dec-C {
+  position: absolute;
+  right: 70px;
+  top: -145px;
+  background-color: red;
+}
+
+.dec-C:hover {
+  background-color: orange;
+}
+hr {
+  width: 148px;
+  position: relative;
+  top: -21px;
+  left: -24px;
+  background-color: black;
+}
